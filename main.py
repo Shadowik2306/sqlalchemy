@@ -18,6 +18,8 @@ def main():
     user.address = 'module_1'
     user.email = 'scott_chief@mars.org'
     db_sess.add(user)
+    db_sess.commit()
+    user = User()
     user.surname = 'Scott1'
     user.name = 'Ridley1'
     user.age = 21
@@ -26,6 +28,8 @@ def main():
     user.address = 'module_1'
     user.email = 'scott1_chief@mars.org'
     db_sess.add(user)
+    db_sess.commit()
+    user = User()
     user.surname = 'Scott2'
     user.name = 'Ridley2'
     user.age = 21
